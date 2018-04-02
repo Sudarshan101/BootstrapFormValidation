@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap form validation</title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-		<div class="container">
+<div class="container">
 		<h1>Bootstrap Form validation</h1>
 		<p>we have to add css and js of bootstrap in our project. you can <a href="https://getbootstrap.com/docs/3.3/" target="_blank">download</a> css and js of bootstrap from the here: <a href="https://getbootstrap.com/docs/3.3/" target="_blank">https://getbootstrap.com/docs/3.3/</a>. And for the validation we have to add validation JS below of the bootstrap JS. Click on the below link for validation JS <a href="https://getbootstrap.com/docs/3.3/" target="_blank">download</a></p>
 		
@@ -112,8 +94,3 @@
 	</form>
 		<br /><br />
 	</div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
-  </body>
-</html>
