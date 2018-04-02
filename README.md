@@ -1,5 +1,4 @@
-<div class="container">
-		<h1>Bootstrap Form validation</h1>
+<h1>Bootstrap Form validation</h1>
 		<p>we have to add css and js of bootstrap in our project. you can <a href="https://getbootstrap.com/docs/3.3/" target="_blank">download</a> css and js of bootstrap from the here: <a href="https://getbootstrap.com/docs/3.3/" target="_blank">https://getbootstrap.com/docs/3.3/</a>. And for the validation we have to add validation JS below of the bootstrap JS. Click on the below link for validation JS <a href="https://getbootstrap.com/docs/3.3/" target="_blank">download</a></p>
 		<h2>Required field validation</h2>
 		<p>for the required any field add "required" attribute in the field</p>
@@ -15,8 +14,7 @@
 	&#60;/form></code>
 </pre>
 	<p style="display:inline-block;vertical-align:middle;">For the bootstrap validation we have to add &nbsp;<pre style="display:inline-block;vertical-align:middle;">data-toggle="validator"</pre>&nbsp; and &nbsp; <pre style="display:inline-block;vertical-align:middle;">role="form"</pre> &nbsp; in the form tag. and use "form-group" class parent for field. And "form-control" class in the field. And if you want to change effect on label tag then you have to add "control-label" class in the label tag. and for the error message <pre style="display:inline-block;vertical-align:middle;">&#60;div class="help-block with-errors">&#60;/div></pre> this div end of the field, inside the parent div. You can also set information in this div if you want</p>
-	
-		<br /><br />
+	<br /><br />
 		<h1>formate validation </h1>
 		<p>for the set formate in any field we have to add "pattern" attribute in the field according to our requirement.</p>
 		<h3>html Code</h3>
@@ -56,6 +54,3 @@
 	  &#60;button type="submit" class="btn btn-default">Submit&#60;/button>
 	&#60;/form>
 </pre>
-	
-		<br /><br />
-	</div>
