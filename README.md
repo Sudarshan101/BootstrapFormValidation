@@ -15,15 +15,7 @@
 	&#60;/form></code>
 </pre>
 	<p style="display:inline-block;vertical-align:middle;">For the bootstrap validation we have to add &nbsp;<pre style="display:inline-block;vertical-align:middle;">data-toggle="validator"</pre>&nbsp; and &nbsp; <pre style="display:inline-block;vertical-align:middle;">role="form"</pre> &nbsp; in the form tag. and use "form-group" class parent for field. And "form-control" class in the field. And if you want to change effect on label tag then you have to add "control-label" class in the label tag. and for the error message <pre style="display:inline-block;vertical-align:middle;">&#60;div class="help-block with-errors">&#60;/div></pre> this div end of the field, inside the parent div. You can also set information in this div if you want</p>
-	<h3>Example</h3>
-		<form data-toggle="validator" role="form">
-		  <div class="form-group">
-			<label for="name" class="control-label">Name</label>
-			<input type="text" class="form-control" id="name" placeholder="Enter your name" required />
-			<div class="help-block with-errors"></div>
-		  </div>
-		  <button type="submit" class="btn btn-default">Submit</button>
-		</form>
+	
 		<br /><br />
 		<h1>formate validation </h1>
 		<p>for the set formate in any field we have to add "pattern" attribute in the field according to our requirement.</p>
@@ -39,15 +31,6 @@
 	&#60;/form></code>
 </pre>
 	<p style="display:inline-block;vertical-align:middle;">For the formate validation we have to add &nbsp;<pre style="display:inline-block;vertical-align:middle;">pattern="^[_A-z0-9]{1,}$"</pre>&nbsp;. If you want to set limit then you have to add minlimit or maxlimit attributes <pre style="display:inline-block;vertical-align:middle;">minlength="6"</pre> &nbsp; and &nbsp; <pre style="display:inline-block;vertical-align:middle;">maxlength="15"</pre> in the field.</p>
-	<h3>Example</h3>
-		<form data-toggle="validator" role="form">
-		  <div class="form-group">
-			<label for="name" class="control-label">Name</label>
-			<input type="text" pattern="^[_A-z]{1,}$" class="form-control" id="name" placeholder="Enter your name" required />
-			<div class="help-block with-errors"></div>
-		  </div>
-		  <button type="submit" class="btn btn-default">Submit</button>
-		</form>
 		<br /><br />
 		<h3>Some Other patterns </h3>
 			<p><b>For the Number formate</b> <pre style="display:inline-block;vertical-align:middle;">pattern="[0-9]+$"</pre></p>
@@ -73,19 +56,6 @@
 	  &#60;button type="submit" class="btn btn-default">Submit&#60;/button>
 	&#60;/form>
 </pre>
-		<h3>Example</h3>
-		<form data-toggle="validator" role="form">
-	  <div class="form-group">
-		<label class="control-label" for="Password">Password</label>
-		<input type="password" data-minlength="6" class="form-control" id="Password" placeholder="Enter your name" required />
-		<div class="help-block with-errors">Minimum of 6 characters</div>
-	  </div>
-	   <div class="form-group">
-	   <label class="control-label" for="ConfirmPassword">Confirm Password</label>
-        <input type="password" class="form-control" id="ConfirmPassword" data-match="#Password" data-match-error="Whoops, Password not match" placeholder="Confirm Password" required />
-        <div class="help-block with-errors"></div>
-      </div>
-	  <button type="submit" class="btn btn-default">Submit</button>
-	</form>
+	
 		<br /><br />
 	</div>
